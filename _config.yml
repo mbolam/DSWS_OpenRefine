@@ -14,9 +14,9 @@ github_username: mbolam
 pub_year: 2018
 
 # add the full url for the github repository
-repo: "https://github.com/mbolam/DigMitCS_openrefine"
+repo: "https://github.com/mbolam/DSWS_OpenRefine"
 
-url: "https://mbolam.github.io/DigMitCS_openrefine" # the base hostname & protocol for your site
+url: "https://mbolam.github.io/DSWS_OpenRefine" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
