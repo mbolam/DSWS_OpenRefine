@@ -1,2 +1,3 @@
-# DSWS_OpenRefine
-Cleaning and Linking Data with OpenRefine
+# Cleaning and Linking Data with OpenRefine
+
+Jekyll repo for workshop website

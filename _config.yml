@@ -1,0 +1,22 @@
+# Jekyll workshop template
+# based on minima theme https://github.com/jekyll/minima
+
+# Site settings
+
+title: Cleaning and Linking Data with OpenRefine
+description: >
+  Introducing OpenRefine, a power tool for the messy work of evaluating, cleaning, and transforming data.
+keywords: "OpenRefine, academic workshop, data transformation"
+
+# author settings for cc-by
+author: Michael Bolam
+github_username: mbolam
+pub_year: 2018
+
+# add the full url for the github repository
+repo: "https://github.com/mbolam/DigMitCS_openrefine"
+
+url: "https://mbolam.github.io/DigMitCS_openrefine" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
