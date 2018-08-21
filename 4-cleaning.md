@@ -77,14 +77,14 @@ The data fields are
 
 **Sample GREL Recipes**
    - Remove duplicate comma separated entries in a cell
-     - value.split(", ").uniques().join(", ")
+     - `value.split(", ").uniques().join(", ")`
    - Replace string in cells
-     - value.replace("+", "")
-     - value.replace("~", "").replace(",", "").replace("-", "")
+     - `value.replace("+", "")`
+     - `value.replace("~", "").replace(",", "").replace("-", "")`
    - Clean-up character encoding problems
-     - value.unescape("url")
+     - `value.unescape("url")`
    - Convert number with text to number
-     - toNumber(value.replace(" million", ""))*1000000
+     - `toNumber(value.replace(" million", ""))*1000000`
 
 **Splitting, faceting, and clustering**
   - multi-valued fields can be a barrier to data cleaning
