@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 4-Demo
+title: 4-Cleaning
 nav: true
 ---
 
