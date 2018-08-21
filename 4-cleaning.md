@@ -75,6 +75,17 @@ The data fields are
   - GREL = General Refine Expression Language
   - GREL [documentation](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language) and [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes) are available on the OpenRefine wiki.
 
+  **Sample GREL Recipes**
+   - Remove duplicate comma separated entries in a cell
+     - value.split(", ").uniques().join(", ")
+   - Replace string in cells
+     - value.replace("+", "")
+     - value.replace("~"", "").replace(",", "").replace("-", "")
+   - Clean-up character encoding problems
+     - value.unescape("url")
+   - Convert number with text to number
+     - toNumber(value.replace(" million", ""))*1000000
+
 - Splitting, faceting, and clustering
   - multi-valued fields can be a barrier to data cleaning
     - `Edit cells` > `Split multi-valued cells...`
