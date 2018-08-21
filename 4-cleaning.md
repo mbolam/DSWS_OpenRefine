@@ -75,7 +75,7 @@ The data fields are
   - GREL = General Refine Expression Language
   - GREL [documentation](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language) and [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes) are available on the OpenRefine wiki.
 
-  **Sample GREL Recipes**
+- Sample GREL Recipes
    - Remove duplicate comma separated entries in a cell
      - value.split(", ").uniques().join(", ")
    - Replace string in cells
