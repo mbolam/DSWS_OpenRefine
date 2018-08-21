@@ -14,7 +14,7 @@ nav: true
 # Books
 
 - [*Using OpenRefine*](https://www.packtpub.com/big-data-and-business-intelligence/using-openrefine), by Ruben Verborgh and Max De Wilde ([eBook available at Pitt](https://pitt.summon.serialssolutions.com/#!/search?ho=t&l=en&bookMark=ePnHCXMw42LgTQStzc4rAe_hSmFm4DI0ByYbC0sD0ICHqEZ4YnBqcLAmdBQEdFycsTEHfFQEwudkEADPmCuAVlUEpaYBG1w8DCx5wE4ZN4O0m2uIs4cu6FikeOgQRzxoK4K5JejoP_yyKlhkYbM8QGUmZhbGhsYAuDA2tA))
-- [*Linked Data for Libraries, Archives, and Museums*](http://book.freeyourmetadata.org/), by Seth van Hooland and Ruben Verborgh ([Print Book available at Pitt(https://pitt.summon.serialssolutions.com/#!/search?bookMark=ePnHCXMw42LgTQStzc4rAe_hSmEGbdsGVqsmoC2PbAw8-cl5FhagahlYEXLAB0NMTC2NDY05GfRBPbDUFAXQ8kgFYKtNAd5p1FFIhB7FqgDsYiuABihKc4t5GFjygF01bgZpN9cQZw9d0GFJ8dCBj3hzYFPe1BR0LS5-WRUssrC5H7Ay0CF7ANPrP7c)])
+- [*Linked Data for Libraries, Archives, and Museums*](http://book.freeyourmetadata.org/), by Seth van Hooland and Ruben Verborgh ([Print Book available at Pitt](https://pitt.summon.serialssolutions.com/#!/search?bookMark=ePnHCXMw42LgTQStzc4rAe_hSmEGbdsGVqsmoC2PbAw8-cl5FhagahlYEXLAB0NMTC2NDY05GfRBPbDUFAXQ8kgFYKtNAd5p1FFIhB7FqgDsYiuABihKc4t5GFjygF01bgZpN9cQZw9d0GFJ8dCBj3hzYFPe1BR0LS5-WRUssrC5H7Ay0CF7ANPrP7c))
 
 # Tutorials & Examples:
 
