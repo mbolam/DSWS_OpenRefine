@@ -80,7 +80,7 @@ The data fields are
      - value.split(", ").uniques().join(", ")
    - Replace string in cells
      - value.replace("+", "")
-     - value.replace("~"", "").replace(",", "").replace("-", "")
+     - value.replace("~", "").replace(",", "").replace("-", "")
    - Clean-up character encoding problems
      - value.unescape("url")
    - Convert number with text to number
