@@ -26,12 +26,12 @@ The data fields are
 
 # Navigating OpenRefine
 
-- Creating a project
+**Creating a project**
   - check character encoding, options
   - Refine never over writes your original data, it creates a copy!
   - information is *not* sent over internet
 
-- Manipulating columns
+**Manipulating columns**
   - text filter
   - faceting
   - edit cells / facets
@@ -44,18 +44,18 @@ The data fields are
     - transform, `value + " " + cells["col 2"].value`
   - remove / reorder columns
 
-- Exporting a project or a data set
+**Exporting a project or a data set**
   - OpenRefine project
   - many formats!
   - templating
   - export is always a new copy of data, never alters original!
 
-- Automating tasks
+**Automating tasks**
   - Undo/Redo copy `Extract` to txt file (use text editor, not Word)
   - create new project with original file
   - Undo/Redo paste saved extract into `Apply`
 
-- More!
+**More!**
 	- Star / Flag & remove rows
 	- create new column with transform `length(value)`, numeric facet
 	- deduplicate
@@ -67,7 +67,7 @@ The data fields are
 
 # Exploring and Cleaning Data
 
-- Cleaning the simple stuff
+**Cleaning the simple stuff**
   - a lot of options in the drop-down menus
   - get rid of white space
     - `Edit cells` > `Common transforms`
@@ -75,7 +75,7 @@ The data fields are
   - GREL = General Refine Expression Language
   - GREL [documentation](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language) and [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes) are available on the OpenRefine wiki.
 
-- Sample GREL Recipes
+**Sample GREL Recipes**
    - Remove duplicate comma separated entries in a cell
      - value.split(", ").uniques().join(", ")
    - Replace string in cells
@@ -86,7 +86,7 @@ The data fields are
    - Convert number with text to number
      - toNumber(value.replace(" million", ""))*1000000
 
-- Splitting, faceting, and clustering
+**Splitting, faceting, and clustering**
   - multi-valued fields can be a barrier to data cleaning
     - `Edit cells` > `Split multi-valued cells...`
     - record view vs. row view
