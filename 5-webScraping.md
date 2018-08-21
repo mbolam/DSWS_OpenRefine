@@ -1,0 +1,24 @@
+---
+layout: default
+title: 5-Web Scraping
+nav: true
+---
+
+# Getting Data by Scraping the Web
+
+- Create new project from Clip board
+    - paste in `https://pittsburgh.craigslist.org/search/sss`
+- create column by fetching url, named "search"
+- on "search" column:
+    - create column based on called "links", using transform to get only the \<a\> with class="hdrlnk", `forEach(value.parseHtml().select("a.hdrlnk"),e,e.htmlAttr("href")).join(" ; ")`
+- remove the first column and "search" column
+- on "links" column:
+    - split multivalued cells on `;`
+    - add links with transform, `"https://pittsburgh.craigslist.org"+value`
+    - add column by fetching url, named "ads"
+- on "ads" column:
+    - get title: add column based on "ads" named "title", grabbing span class="postingtitletext", `value.parseHtml().select("head")[0].select("title")[0].htmlText()`
+    - get price: `value.parseHtml().select("h2.postingtitle")[0].select("span.price")[0].htmlText()`
+    - get category: `value.parseHtml().select("header")[0].select("li.category")[0].htmlText()`
+
+Etc!
