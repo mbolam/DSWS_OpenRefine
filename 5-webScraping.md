@@ -14,8 +14,7 @@ nav: true
 - remove the first column and "search" column
 - on "links" column:
     - split multivalued cells on `;`
-    - add links with transform, `"https://pittsburgh.craigslist.org"+value`
-    - add column by fetching url, named "ads"
+- add column by fetching url, named "ads"
 - on "ads" column:
     - get title: add column based on "ads" named "title", grabbing span class="postingtitletext", `value.parseHtml().select("head")[0].select("title")[0].htmlText()`
     - get price: `value.parseHtml().select("h2.postingtitle")[0].select("span.price")[0].htmlText()`
