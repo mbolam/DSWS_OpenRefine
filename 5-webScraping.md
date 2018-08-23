@@ -8,7 +8,7 @@ nav: true
 
 - Create new project from Clip board
   - paste in `https://pittsburgh.craigslist.org/search/sss`
-  - this will only pull the data from the first page of results 
+  - this will only pull the data from the first page of results; you'd have to do some query manipulation to get more results back.
   - you can perform a search to get a subset of this data
 - create column by fetching url, named "search"
 - on "search" column:
