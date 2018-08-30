@@ -4,7 +4,7 @@ title: 4-Cleaning
 nav: true
 ---
 
-# Demo: Navigating OpenRefine and Basic Data Cleaning
+# Navigating OpenRefine and Data Cleaning
 
 In this demo we are going to play with a data about University endowments harvested from Wikipedia—so it is very *messy*!
 
@@ -24,7 +24,7 @@ The data fields are
 - numUndergrad
 - numStudents
 
-# Navigating OpenRefine
+## Navigating OpenRefine
 
 **Creating a project**
   - check character encoding, options
@@ -65,7 +65,7 @@ The data fields are
     - basic geo code lookup, `"http://maps.google.com/maps/api/geocode/json?sensor=false&address=" + escape(value, "url")
   with(value.parseJson().results[0].geometry.location, pair, pair.lat +", " + pair.lng)`
 
-# Exploring and Cleaning Data
+## Exploring and Cleaning Data
 
 **Cleaning the simple stuff**
   - a lot of options in the drop-down menus
