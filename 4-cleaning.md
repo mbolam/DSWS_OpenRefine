@@ -62,8 +62,9 @@ The data fields are
     - sort by, permanent reorder
     - blank down / fill down
   - fetch URLs
-    - basic geo code lookup,  - `"http://maps.google.com/maps/api/geocode/json?sensor=false&address=" + escape(value, "url")`
-    `with(value.parseJson().results[0].geometry.location, pair, pair.lat +", " + pair.lng)`
+    - basic geo code lookup,  
+      - `"http://maps.google.com/maps/api/geocode/json?sensor=false&address=" + escape(value, "url")`
+      - `with(value.parseJson().results[0].geometry.location, pair, pair.lat +", " + pair.lng)`
 
 ## Exploring and Cleaning Data
 
