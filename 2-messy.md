@@ -8,7 +8,7 @@ nav: true
 
 Inconsistent formats, unnecessary white space, extra characters, typos, etc...
 
-**Each row contains exactly the same info:**
+### Each row contains exactly the same info:
 
 | 2015-10-14 | $1,000 | PA |
 | 10/14/2015 | 1000 | Pa. |
@@ -17,8 +17,6 @@ Inconsistent formats, unnecessary white space, extra characters, typos, etc...
 | Wed, Oct 14th | US$1000 | Pennsylvania, |
 | 42291 | $1k | Pennsylvania |
 
-
-
-**Multivalued cells limit ability to manipulate and use the data:**
+### Multivalued cells limit ability to manipulate and use the data:
 
 | Giuseppe Acerbi, Joseph Acerbi, Signor Acerbi | traveller, literary, naturalist, composer |
