@@ -55,12 +55,12 @@ The data fields are
   - create new project with original file
   - Undo/Redo paste saved extract into `Apply`
 
-**More!**
-	- Star / Flag & remove rows
-	- create new column with transform `length(value)`, numeric facet
-	- deduplicate
-		- sort by, permanent reorder
-		- blank down / fill down
+**Even More**
+  - Star / Flag & remove rows
+  - create new column with transform `length(value)`, numeric facet
+  - deduplicate
+    - sort by, permanent reorder
+    - blank down / fill down
   - fetch URLs
     - basic geo code lookup, `"http://maps.google.com/maps/api/geocode/json?sensor=false&address=" + escape(value, "url")
   with(value.parseJson().results[0].geometry.location, pair, pair.lat +", " + pair.lng)`
