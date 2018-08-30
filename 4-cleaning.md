@@ -63,7 +63,7 @@ The data fields are
     - blank down / fill down
   - fetch URLs
     - basic geo code lookup (YMMV -- Google is regularly adjusting access to the maps API - for current information on [Geocoding API Usage and Billing](https://developers.google.com/maps/documentation/geocoding/usage-and-billing) )  
-      - Create URLs that point at the Google Maps API -- add column based on "country" column: `"http://maps.google.com/maps/api/geocode/json?sensor=false&address=" + escape(value, "url")`
+      - create URLs that point at the Google Maps API -- add column based on "country" column: `"http://maps.google.com/maps/api/geocode/json?sensor=false&address=" + escape(value, "url")`
       - grab JSON from the API using "Add column by fetching URLs" on newly created column
       - parse JSON using "Add column based on this column" `with(value.parseJson().results[0].geometry.location, pair, pair.lat +", " + pair.lng)`
 
