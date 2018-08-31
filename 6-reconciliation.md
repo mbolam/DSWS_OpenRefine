@@ -32,7 +32,7 @@ nav: true
   - place of birth > `Edit column` > `Add columns from reconciled values`
   - Add coordinate location
 - Some other stuff you can do
-  -
+  - that other stuff
 
 **Other data services**
 - Users can set up their own data services or use other existing data services.
