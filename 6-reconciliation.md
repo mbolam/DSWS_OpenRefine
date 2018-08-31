@@ -31,7 +31,7 @@ nav: true
 - Geographic Coordinates for places
   - place of birth > `Edit column` > `Add columns from reconciled values`
   - Add coordinate location
-- Some other stuff you can do:
+- Some other stuff you can do
   -
 
 **Other data services**
