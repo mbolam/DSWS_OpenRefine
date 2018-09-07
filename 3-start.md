@@ -7,7 +7,7 @@ nav: true
 # Setup Refine
 
 1. **Install Java:** OpenRefine is a [Java](http://java.com/en/) application and requires Java JRE to run. Download and install Java if you do not have it. Clicking "Free Java Download" on the [Java](http://java.com/) site will get you the correct version. (When installing be sure to uncheck the "recommended" option to add Yahoo to your browsers!)
-2. **Download Refine:** Download the most recent [OpenRefine package](http://openrefine.org/download.html) for your OS. Releases are posted on the [OpenRefine site](http://openrefine.org/download.html) or [GitHub releases page](https://github.com/OpenRefine/OpenRefine/releases/). (this workshop used openrefine-2.7)
+2. **Download Refine:** Download the most recent [OpenRefine package](http://openrefine.org/download.html) for your OS. Releases are posted on the [OpenRefine site](http://openrefine.org/download.html) or [GitHub releases page](https://github.com/OpenRefine/OpenRefine/releases/). (this workshop used openrefine-2.8)
 3. **Extract Refine:** Unzip the OpenRefine package to a permanent location, for example in your User directory or Documents.
     - Windows: unzip by right clicking and selecting Extract All.
     - Mac: drag the `dmg` to the application folder.
