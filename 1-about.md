@@ -8,12 +8,11 @@ nav: true
 
 OpenRefine is a [free](https://www.gnu.org/philosophy/free-sw.en.html), [open source](https://github.com/OpenRefine/OpenRefine), Java application, that runs offline in a web browser.
 
-> **You can use OpenRefine to:**
->
-> * Get and overview of a data set
-> * Split complex data fields into more granular parts
-> * Clean up tabular data by removing inconsistencies in format and terminology
-> * Enhance a data set with data from other sources
+**You can use OpenRefine to:**
+ * Get and overview of a data set
+ * Split complex data fields into more granular parts
+ * Clean up tabular data by removing inconsistencies in format and terminology
+ * Enhance a data set with data from other sources
 
 ![Refine Screenshot](images/refine.png)
 
