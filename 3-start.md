@@ -11,7 +11,7 @@ nav: true
 3. **Extract Refine:** Unzip the OpenRefine package to a permanent location, for example in your User directory or Documents.
     - Windows: unzip by right clicking and selecting Extract All.
     - Mac: drag the `dmg` to the application folder.
-    - Linux: unpack in desired location with with `tar`, for example `tar xzf openrefine-linux-2.7.tar.gz`.
+    - Linux: unpack in desired location with with `tar`, for example `tar xzf openrefine-linux-2.8.tar.gz`.
 
 Full documentation is available on the [official wiki](https://github.com/OpenRefine/OpenRefine/wiki/), including more detailed [installation instructions](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions).
 
