@@ -6,7 +6,7 @@ nav: true
 
 # Getting Data by Scraping the Web
 
-- Create new project from Clip board
+- Create new project from Clipboard
   - paste in `https://pittsburgh.craigslist.org/search/sss`
   - this will only pull the data from the first page of results; you'd have to do some query manipulation to get more results back.
   - you can perform a search to get a subset of this data
@@ -22,5 +22,3 @@ nav: true
   - get title: add column based on "ads" named "title", grabbing span class="postingtitletext", `value.parseHtml().select("head")[0].select("title")[0].htmlText()`
   - get price: `value.parseHtml().select("h2.postingtitle")[0].select("span.price")[0].htmlText()`
   - get category: `value.parseHtml().select("header")[0].select("li.category")[0].htmlText()`
-
-Etc!
