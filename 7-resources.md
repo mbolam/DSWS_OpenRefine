@@ -21,8 +21,6 @@ nav: true
 # Tutorials & Examples:
 
 - [Open Refine for Ecology](http://www.datacarpentry.org/OpenRefine-ecology-lesson/), workshop lesson from Data Carpentry with biology data.
-- [OpenRefine 101](https://bigdatauniversity.com/courses/introduction-to-openrefine/), online course from Big Data University.
-- [OpenRefine Tutorial](http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial) from Enipedia using university endowment data.
 - [Cleaning Data with Refine](http://schoolofdata.org/handbook/recipes/cleaning-data-with-refine/), tutorial from School of Data using African hospital data.
 - [Using Google Refine to Clean Messy Data](https://www.propublica.org/nerds/item/using-google-refine-for-data-cleaning), tutorial from ProPublica focusing on data journalism.
 - [Library Carpentry OpenRefine](https://librarycarpentry.github.io/lc-open-refine/), workshop lesson with library data examples.
