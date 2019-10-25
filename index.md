@@ -14,11 +14,11 @@ Before analysis comes the messy work of evaluating, cleaning, and transforming d
     * Data Security
     * Data Types
     * Use Cases
-* Messy (5 minutes)
+* [Messy](2-messy.html) (5 minutes)
     * What is "Messy Data"?
-* Start (5 minutes)
+* [Start](3-start.html) (5 minutes)
     * Downloading and Installing OpenRefine
-* Cleaning (60 minutes)
+* [Cleaning](4-cleaning.html) (60 minutes)
     * Creating a Project
     * Navigating OpenRefine (15 minutes)
     * Text Filters
@@ -34,16 +34,17 @@ Before analysis comes the messy work of evaluating, cleaning, and transforming d
     * Exporting a Project or Data Sets
     * Automating Workflows
     * Fetching Data from a URL
-* Web Scraping (20 minutes)
+* [Web Scraping](5-webScraping.html) (20 minutes)
     * What is Web Scraping?
     * Use Cases for OpenRefine for Web Scraping
     * Demonstration of Web Scraping Craigslist
-* Reconciliation (20 minutes)
+* [Reconciliation](6-reconciliation.html) (20 minutes)
     * What is Reconciliation?
     * Using OpenRefine's Built-in WikiData Service
     * Extending Data from Reconciled Data
     * Other Data Services
-* Resources (3 minutes)
+* [Resources](7-resources.html) (3 minutes)
+    * Overview of Other Resources
 
 Originally created: September 14, 2018. Updated: March 22, 2019, November 1, 2019. Developed for the the [ULS Digital Scholarship Workshop Series](https://www.library.pitt.edu/digital-scholarship-services) at the [University of Pittsburgh Libraries](http://www.library.pitt.edu).
 
