@@ -9,16 +9,41 @@ layout: default
 Before analysis comes the messy work of evaluating, cleaning, and transforming data. This hands on workshop will introduce a free power tool to get the job done: [OpenRefine](http://openrefine.org/index.html). We will install Refine, create a project, and get oriented to the many features for exploring and transforming tabular data.
 
 ## Agenda:
-* About OpenRefine (10 minutes)
-* What is "Messy Data"? (5 minutes)
-* Downloading and Installing OpenRefine (5 minutes)
-* Navigating OpenRefine
+* About (7 minutes)
+    * What is OpenRefine?
+    * Data Security
+    * Data Types
+    * Use Cases
+* Messy (5 minutes)
+    * What is "Messy Data"?
+* Start (5 minutes)
+    * Downloading and Installing OpenRefine
+* Cleaning (60 minutes)
     * Creating a Project
-    * Manipulating Columns
+    * Navigating OpenRefine (15 minutes)
+    * Text Filters
+    * Editing Data
+    * Transforming Data
+    * Mass Cleaning
+    * Clustering
+    * Creating New Columns
+    * Splitting Columns
+    * Removing Duplicate Rows
+    * Manipulating Data Types
+    * Interacting with Rows
     * Exporting a Project or Data Sets
-    * Automating Tasks
-* Data Cleaning with OpenRefine
-    * 
+    * Automating Workflows
+    * Fetching Data from a URL
+* Web Scraping (20 minutes)
+    * What is Web Scraping
+    * Use Cases for OpenRefine for Web Scraping
+    * Demonstration of Web Scraping Craigslist
+* Reconciliation (20 minutes)
+    * What is Reconciliation?
+    * Using OpenRefine's Built-in WikiData Service
+    * Extending Data from Reconciled Data
+    * Other Data Services
+* Resources (3 minutes)
 
 Originally created: September 14, 2018. Updated: March 22, 2019, November 1, 2019. Developed for the the [ULS Digital Scholarship Workshop Series](https://www.library.pitt.edu/digital-scholarship-services) at the [University of Pittsburgh Libraries](http://www.library.pitt.edu).
 
