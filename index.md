@@ -35,7 +35,7 @@ Before analysis comes the messy work of evaluating, cleaning, and transforming d
     * Automating Workflows
     * Fetching Data from a URL
 * Web Scraping (20 minutes)
-    * What is Web Scraping
+    * What is Web Scraping?
     * Use Cases for OpenRefine for Web Scraping
     * Demonstration of Web Scraping Craigslist
 * Reconciliation (20 minutes)
