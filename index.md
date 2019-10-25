@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include figure.html file="refinegem.jpg" alt="openrefine gem" width="50%" %}
+{% include figure.html file="refinegem.png" alt="openrefine gem" width="50%" %}
 
 # Cleaning and Linking Data with OpenRefine
 
