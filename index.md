@@ -8,6 +8,18 @@ layout: default
 
 Before analysis comes the messy work of evaluating, cleaning, and transforming data. This hands on workshop will introduce a free power tool to get the job done: [OpenRefine](http://openrefine.org/index.html). We will install Refine, create a project, and get oriented to the many features for exploring and transforming tabular data.
 
+## Agenda:
+* About OpenRefine (10 minutes)
+* What is "Messy Data"? (5 minutes)
+* Downloading and Installing OpenRefine (5 minutes)
+* Navigating OpenRefine
+    * Creating a Project
+    * Manipulating Columns
+    * Exporting a Project or Data Sets
+    * Automating Tasks
+* Data Cleaning with OpenRefine
+    * 
+
 Originally created: September 14, 2018. Updated: March 22, 2019, November 1, 2019. Developed for the the [ULS Digital Scholarship Workshop Series](https://www.library.pitt.edu/digital-scholarship-services) at the [University of Pittsburgh Libraries](http://www.library.pitt.edu).
 
 > built using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/)
