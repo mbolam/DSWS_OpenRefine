@@ -33,9 +33,10 @@ Before analysis comes the messy work of evaluating, cleaning, and transforming d
     * Creating New Columns
     * Splitting Columns
     * Removing Duplicate Rows
-    * Manipulating Data Types
+    * Working with Different Data Types
     * Interacting with Rows
     * Exporting a Project or Data Sets
+    * Undo / Redo
     * Automating Workflows
     * Fetching Data from a URL
 * [Web Scraping](5-webScraping.html) (20 minutes)

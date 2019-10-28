@@ -49,6 +49,8 @@ The data fields are
   - This workshop will focus mostly on text facets, because our data is not great for demonstrating the others.
 
 ## Editing Data
+  - OpenRefine is great for making the same change throughout a column of data. An individual cell can be selected and edited, and all other cells matching that cell can be automatically updated.
+  - Using facets, the text of the facet can be modified, updating all of the cells with that same data.
 
 ## Transforming Data
 
@@ -62,13 +64,18 @@ The data fields are
 
 ## Removing Duplicate Rows
 
-## Manipulating Data Types
+## Working with Different Data Types
 
 ## Interacting with Rows
 
+
 ## Exporting a Project or Data Sets
 
+## Undo / Redo
+ - OpenRefine has powerful undo and redo capabilities. The Undo/Redo link provides the entire project history, and allows you to step back/forward to any step in the process.
+
 ## Automating Workflows
+  - The actions in the Undo/Redo tab can also be saved to create workflows. If you are regularly performing the same actions on a data set, then it might be helpful to save the process and reuse it each time you open the data set.
 
 ## Fetching Data from a URL
 
