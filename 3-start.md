@@ -4,7 +4,7 @@ title: 3-Start
 nav: true
 ---
 
-# Setup Refine
+# Setup OpenRefine
 
 1. **Install Java:** OpenRefine is a [Java](http://java.com/en/) application and requires Java JRE to run. Download and install Java if you do not have it. Clicking "Free Java Download" on the [Java](http://java.com/) site will get you the correct version. (When installing be sure to uncheck the "recommended" option to add Yahoo to your browsers!)
 2. **Download Refine:** Download the most recent [OpenRefine package](http://openrefine.org/download.html) for your OS. Releases are posted on the [OpenRefine site](http://openrefine.org/download.html) or [GitHub releases page](https://github.com/OpenRefine/OpenRefine/releases/). (this workshop used openrefine-3.1)
@@ -15,7 +15,7 @@ nav: true
 
 Full documentation is available on the [official wiki](https://github.com/OpenRefine/OpenRefine/wiki/), including more detailed [installation instructions](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions).
 
-# Start Refine
+# Start OpenRefine
 
 1. **Start the Java app:** Opening Refine differs depending on your OS, but in all cases the app will start running in a terminal window which you can ignore and minimize (but do not close!).
     - Windows: double click `openrefine.exe` (You may get a warning that the publisher could not be verified, ignore it, and click *Run*. Once open, pin the Refine icon to your taskbar for easy access in the future).
