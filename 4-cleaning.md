@@ -6,10 +6,9 @@ nav: true
 
 # Cleaning Data with OpenRefine
 
-
 ## About the Data
 
-In this demo we are going to play with a data about University endowments harvested from Wikipedia—so it is very *messy*!
+In this demo we are going to play with a data about University endowments harvested from Wikipedia—so it is very *messy*! Since we are trying to demonstrate a lot of features, some of the steps will be very “destructive” to the data (but our original data is still safe).
 
 Download <a href="images/universityData.csv" target="\_blank">`universityData.csv`</a>
 
@@ -27,12 +26,48 @@ The data fields are
 - numUndergrad
 - numStudents
 
-## Navigating OpenRefine
+## Creating a project
+  - Projects can be created from data on your computer, data on the web, pasting into the clipboard, connecting to a database, or linking to Google Sheets.
+  - As a reminder. OpenRefine never over writes your original data, and information is *not* sent over the Internet!
+  - OpenRefine can accept a variety of data types, including CSV/TSV/\*SV, line-based text files, fixed-width field text files, JSON files, RDF files, XML files, and Excel files. I have found that simple \*SV files tend to work the best.
+  - OpenRefine data preview page will attempt to identify the file-type, and the available options will vary based on that file-type. For our University Data, OpenRefine correctly identified it as TSV, even though the file extension said ".csv"
+  - When satisfied with the data, click the "Create Project>>" button.
 
-**Creating a project**
-  - check character encoding, options
-  - Refine never over writes your original data, it creates a copy!
-  - information is *not* sent over internet
+## Navigating OpenRefine
+  - Data manipulation happens through pull-down menus associated with each column.
+  - OpenRefine only displays a few fields at a time - it is acting as a preview of the data, but the actions taken are on all cells in a column.
+  - You can adjust the number of visible fields and navigate forward/backward through the pages of data.
+
+## Text Filters
+  - Text filters can be used to isolate specific rows that contain the text. They can be used to quickly isolate rows for further manipulation.
+  - The dialog box allows for case-sensitive filters and regular expressions.
+  - Regular expressions can be very powerful for querying data, but a bit outside the scope of this workshop. We regularly use a regular expression to find rows that do not have the work:  ^((?!Pennsylvania).)\*$ 
+
+## Editing Data
+
+## Transforming Data
+
+## Mass Cleaning
+
+## Clustering
+
+## Creating New Columns
+
+## Splitting Columns
+
+## Removing Duplicate Rows
+
+## Manipulating Data Types
+
+## Interacting with Rows
+
+## Exporting a Project or Data Sets
+
+## Automating Workflows
+
+## Fetching Data from a URL
+
+
 
 **Manipulating columns**
   - text filter
