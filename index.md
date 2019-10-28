@@ -17,10 +17,11 @@ Before analysis comes the messy work of evaluating, cleaning, and transforming d
 * [Messy](2-messy.html) (5 minutes)
     * What is "Messy Data"?
 * [Start](3-start.html) (5 minutes)
-    * Downloading and Installing OpenRefine
+    * Setup OpenRefine
+    * Start OpenRefine
 * [Cleaning](4-cleaning.html) (60 minutes)
     * Creating a Project
-    * Navigating OpenRefine (15 minutes)
+    * Navigating OpenRefine
     * Text Filters
     * Editing Data
     * Transforming Data
