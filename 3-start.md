@@ -25,3 +25,7 @@ Full documentation is available on the [official wiki](https://github.com/OpenRe
 3. **Shut down:** close any browser tabs with the GUI, then stop the host terminal window with `Ctrl+C`. This will ensure any open projects are saved.
 
 ![OpenRefine terminal and GUI](images/openrefine.png)
+
+# Troubleshooting Installation
+
+Depending on security settings on your computer, OpenRefine may be blocked from opening. If you are having trouble getting OpenRefine to run, try checking out the OpenRefine [Installation Instructions](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions), where common issues and solutions are listed.
