@@ -41,7 +41,11 @@ The data fields are
 ## Text Filters
   - Text filters can be used to isolate specific rows that contain the text. They can be used to quickly isolate rows for further manipulation.
   - The dialog box allows for case-sensitive filters and regular expressions.
-  - Regular expressions can be very powerful for querying data, but a bit outside the scope of this workshop. We regularly use a regular expression to find rows that do not have the work:  ^((?!Pennsylvania).)\*$ 
+  - Regular expressions can be very powerful for querying data, but a bit outside the scope of this workshop. We regularly use a regular expression to find rows that do not have the work:  ^((?!Pennsylvania).)\*$
+
+## Facets
+
+
 
 ## Editing Data
 

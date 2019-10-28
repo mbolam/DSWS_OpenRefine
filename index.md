@@ -25,6 +25,7 @@ Before analysis comes the messy work of evaluating, cleaning, and transforming d
     * Creating a Project
     * Navigating OpenRefine
     * Text Filters
+    * Facets
     * Editing Data
     * Transforming Data
     * Mass Cleaning
