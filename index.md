@@ -28,7 +28,6 @@ Before analysis comes the messy work of evaluating, cleaning, and transforming d
     * Facets
     * Editing Data
     * Transforming Data
-    * Mass Cleaning
     * Clustering
     * Creating New Columns
     * Splitting Columns
