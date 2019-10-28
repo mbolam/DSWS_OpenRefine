@@ -18,7 +18,7 @@ OpenRefine is a [free](https://www.gnu.org/philosophy/free-sw.en.html), [open so
 
 ## Data Security
 
-OpenRefine operates using your web browser as a web client/server app, but OpenRefine server runs on your personal machine and nothing is sent out over the Internet. All of the data cleaning and transformation operations can be done without any external network services. OpenRefine project data is stored in the 'workspace directory'. A default workspace directory is setup on your local computer when you first run OpenRefine, or you can set it yourself through a setting. Some operations, like connecting to Google Drive files, or performing reconciliation, will connect OpenRefine to the Internet. 
+OpenRefine operates using your web browser as a web client/server app, but OpenRefine server runs on your personal machine and nothing is sent out over the Internet. All of the data cleaning and transformation operations can be done without any external network services. OpenRefine project data is stored in the 'workspace directory'. A default workspace directory is setup on your local computer when you first run OpenRefine, or you can set it yourself through a setting. Some operations, like connecting to Google Drive files or using reconciliation services, will connect OpenRefine to the Internet.
 
 Additionally, OpenRefine works on a "copy" of your data. Your original data is not affected by any of the actions performed in OpenRefine. OpenRefine requires that your export your updated data.
 
