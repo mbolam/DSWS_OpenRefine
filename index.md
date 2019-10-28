@@ -19,6 +19,7 @@ Before analysis comes the messy work of evaluating, cleaning, and transforming d
 * [Start](3-start.html) (5 minutes)
     * Setup OpenRefine
     * Start OpenRefine
+    * Troubleshooting Installation
 * [Cleaning](4-cleaning.html) (60 minutes)
     * Creating a Project
     * Navigating OpenRefine
