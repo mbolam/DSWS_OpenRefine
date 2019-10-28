@@ -70,7 +70,7 @@ The data fields are
 
 ## Clustering
   - OpenRefine includes a set of text clustering algorithms. The different algorithms are best suited for different types of applications, but I have found that navigating through the different options helps considerably when attempting to normalize data.
-  - 
+  - Learn more about the text clustering algorithms - [Clustering In Depth](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth) - on the OpenRefine wiki.
 
 ## Creating New Columns
 
