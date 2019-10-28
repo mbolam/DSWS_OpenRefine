@@ -12,7 +12,7 @@ In this demo we are going to play with a data about University endowments harves
 
 Download <a href="images/universityData.csv" target="\_blank">`universityData.csv`</a>
 
-> The university endowment demo data is from the [Enipedia OpenRefine Tutorial](http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial).
+> The university endowment demo data is from the Enipedia OpenRefine Tutorial.
 
 The data fields are
 - university
@@ -41,11 +41,12 @@ The data fields are
 ## Text Filters
   - Text filters can be used to isolate specific rows that contain the text. They can be used to quickly isolate rows for further manipulation.
   - The dialog box allows for case-sensitive filters and regular expressions.
-  - Regular expressions can be very powerful for querying data, but a bit outside the scope of this workshop. We regularly use a regular expression to find rows that do not have the work:  ^((?!Pennsylvania).)\*$
+  - Regular expressions can be very powerful for querying data, but a bit outside the scope of this workshop. I regularly use a regular expression to find rows that do not have the word:  ^((?!Pennsylvania).)\*$
 
 ## Facets
-
-
+  - Creating and using facets is one of the most powerful features of OpenRefine. Facets can be used to learn more about your data, discover inconsistencies, and select subsets of data for review and cleaning.
+  - Many types of facets can be created, depending on the data type of the field - text, numeric, timeline, scatterplot. Additionally, there is a list of custom facets built for specific uses, like duplicates, text length, errors, and empty strings. Finally, users can create their own facets using the custom facet builder.
+  - This workshop will focus mostly on text facets, because our data is not great for demonstrating the others.
 
 ## Editing Data
 
