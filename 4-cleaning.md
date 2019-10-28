@@ -69,6 +69,8 @@ The data fields are
   - This is just the basics. GREL [documentation](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language) and [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes) are available on the OpenRefine wiki.
 
 ## Clustering
+  - OpenRefine includes a set of text clustering algorithms. The different algorithms are best suited for different types of applications, but I have found that navigating through the different options helps considerably when attempting to normalize data.
+  - 
 
 ## Creating New Columns
 
@@ -91,20 +93,6 @@ The data fields are
 
 ## Fetching Data from a URL
 
-
-
-**Manipulating columns**
-  - text filter
-  - faceting
-  - edit cells / facets
-  - transform, `value.unescape('url')`, find & replace, `value.replace("old","new")`
-  - undo/redo
-  - clustering
-  - split into multiple columns
-  - combine columns (*tricky* because combining blank cells results in an error)
-    - facet by blank, combine only non-empty cells
-    - transform, `value + " " + cells["col 2"].value`
-  - remove / reorder columns
 
 **Exporting a project or a data set**
   - OpenRefine project
