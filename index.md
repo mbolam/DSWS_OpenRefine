@@ -21,6 +21,7 @@ Before analysis comes the messy work of evaluating, cleaning, and transforming d
     * Start OpenRefine
     * Troubleshooting Installation
 * [Cleaning](4-cleaning.html) (60 minutes)
+    * About the Data
     * Creating a Project
     * Navigating OpenRefine
     * Text Filters

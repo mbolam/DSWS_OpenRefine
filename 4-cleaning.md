@@ -4,11 +4,14 @@ title: 4-Cleaning
 nav: true
 ---
 
-# Navigating OpenRefine and Data Cleaning
+# Cleaning Data with OpenRefine
+
+
+## About the Data
 
 In this demo we are going to play with a data about University endowments harvested from Wikipedia—so it is very *messy*!
 
-Download <a href="images/universityData.csv" target="_blank">`universityData.csv`</a>
+Download <a href="images/universityData.csv" target="_blank">`universityData.csv`</a>_
 
 > The university endowment demo data is from the [Enipedia OpenRefine Tutorial](http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial).
 
