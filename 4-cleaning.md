@@ -98,40 +98,23 @@ The data fields are
   - OpenRefine primarily deals with columns, but there are some operations that can interact with rows. Typically, this is done from the "All" menu at the front of your data sheet in OpenRefine.
   - From the All menu, you can edit columns, allowing you to rearrange and remove data from your project. You can also star or flag rows, as we did in the exercise to remove duplicates above.
 
-## Exporting a Project or Data Sets
-  - 
-
-
 ## Undo / Redo
  - OpenRefine has powerful undo and redo capabilities. The Undo/Redo link provides the entire project history, and allows you to step back/forward to any step in the process.
 
 ## Automating Workflows
-  - The actions in the Undo/Redo tab can also be saved to create workflows. If you are regularly performing the same actions on a data set, then it might be helpful to save the process and reuse it each time you open the data set.
+ - The actions in the Undo/Redo tab can also be saved to create workflows. If you are regularly performing the same actions on a data set, then it might be helpful to save the process and reuse it each time you open the data set.
+
+## Exporting a Project or Data Sets
+  - OpenRefine has a wide variety of outputs and exports. The most straight forward are exporting as TSV, CSV, HTML table, Excel, and ODF spreadsheets.
+  - Export Project allows you to export your data as an OpenRefine project, with all of your operations in place (including your history of transforms in the Undo/Redo tab). This can be useful if you would like to share your work with a colleague.
+  - Finally, there are some more advanced options that allow you customize your OpenRefine data output. Since they have fairly specific use-cases, they are not covered in this workshop.
+      - - Custom Tabular Exporter allows you to make decisions about which fields will be exported and how they will be represented on export.
+      - Templating displays your data in JSON, and allows you to convert it to other formats. This can be used to meet specific requirements for your data, including converting the data to XML.
+      - There are other options, like the SQL Exporter and tools that interact with Wikidata.
+  - Remember! Your exported data is always a copy of what your original data. Your original data is safe!
 
 ## Fetching Data from a URL
-  -
-  - basic geo code lookup using [Open Street Maps Nominatim API](https://nominatim.openstreetmap.org/) ([Nominatim Usage Policy](https://operations.osmfoundation.org/policies/nominatim/))
-  - create URLs that point at the Nominatim API -- add column based on "country" column: `"https://nominatim.openstreetmap.org/search?format=json&email=mbolam@gmail.com&app=google-refine&q=" + escape(value, 'url')`
-  - grab JSON from the API using "Add column by fetching URLs" on newly created column
-  - parse JSON using "Add column based on this column" `with(value.parseJson()[0], pair, pair.lat + ',' + pair.lon)`
-
-
-**Exporting a project or a data set**
-  - OpenRefine project
-  - many formats!
-  - templating
-  - export is always a new copy of data, never alters original!
-
-**Automating tasks**
-  - Undo/Redo copy `Extract` to txt file (use text editor, not Word)
-  - create new project with original file
-  - Undo/Redo paste saved extract into `Apply`
-
-**Even More**
-  - Star / Flag & remove rows
-  - create new column with transform `length(value)`, numeric facet
-  - deduplicate
-    - sort by, permanent reorder
-    - blank down / fill down
-  - fetch URLs
-    -
+  - OpenRefine can connect to the Internet to extract data. As part of the workshop, we will perform a fairly simple geographic coordinate look-up using [Open Street Maps Nominatim API](https://nominatim.openstreetmap.org/) - ([Nominatim Usage Policy](https://operations.osmfoundation.org/policies/nominatim/))
+      - First, create URLs that point at the Nominatim API -- add column based on "country" column: `"https://nominatim.openstreetmap.org/search?format=json&email=youremail@email.com&app=google-refine&q=" + escape(value, 'url')`
+      - Then, grab JSON from the API using "Add column by fetching URLs" on newly created column
+      - Finally parse JSON using "Add column based on this column" `with(value.parseJson()[0], pair, pair.lat + ',' + pair.lon)`
