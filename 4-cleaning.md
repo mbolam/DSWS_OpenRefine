@@ -74,12 +74,15 @@ The data fields are
   - This is just the basics. GREL [documentation](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language) and [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes) are available on the OpenRefine wiki.
 
 ## Clustering
-  - OpenRefine includes a set of text clustering algorithms. The different algorithms are best suited for different types of applications, but I have found that navigating through the different options helps considerably when attempting to normalize data.
+  - OpenRefine includes a set of text clustering algorithms. The different algorithms are best suited for different types of applications, but navigating through the different options often helps considerably when attempting to normalize data.
   - Learn more about the text clustering algorithms - [Clustering In Depth](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth) - on the OpenRefine wiki.
 
 ## Creating New Columns
+  - It is often helpful to create a new column based on an existing column. You may want to duplicate the information in the column to protect the original data, or perform some transformation on the column or modify the data.
 
 ## Splitting Columns
+  - 
+
 
 ## Removing Duplicate Rows
 
