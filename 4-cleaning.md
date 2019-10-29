@@ -33,7 +33,7 @@ The data fields are
   - OpenRefine data preview page will attempt to identify the file-type, and the available options will vary based on that file-type. For our University Data, OpenRefine correctly identified it as TSV, even though the file extension said ".csv"
   - When satisfied with the data, click the "Create Project>>" button.
 
-{% include figure.html file="openRefineDataPreview.jpg" alt="openrefine data preview" width="100%" %}
+{% include figure.html file="openRefineDataPreview.jpg" alt="openrefine data preview" width="100%" figcaption="OpenRefine Data Preview" %}
 
 ## Navigating OpenRefine
   - Data manipulation happens through pull-down menus associated with each column.
@@ -41,7 +41,7 @@ The data fields are
   - You can adjust the number of visible fields and navigate forward/backward through the pages of data.
   - Data manipulation happens through pull-down menus associated with each column.
 
-{% include figure.html file="openRefineMenuSelect.jpg" alt="openrefine menu select" width="100%" %}
+{% include figure.html file="openRefineMenuSelect.jpg" alt="openrefine menu select" width="100%" figcaption="OpenRefine Menu Select" %}
 
 ## Text Filters
   - Text filters can be used to isolate specific rows that contain the text. They can be used to quickly isolate rows for further manipulation.
