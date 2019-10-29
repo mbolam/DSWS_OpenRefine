@@ -81,12 +81,17 @@ The data fields are
   - It is often helpful to create a new column based on an existing column. You may want to duplicate the information in the column to protect the original data, or perform some transformation on the column or modify the data.
 
 ## Splitting Columns
-  - 
-
+  - Sometimes columns will contain compound headings, for example keywords, subject terms, or names split by a comma or semi-colon. OpenRefine allows you to split that column into different cells or different columns.
+  - You might split into different columns if you need to perform different actions on those data types. It can be a little challenging to merge data split into columns back into a single column, because the "+" operator in GREL will break on a blank node. You can do this by using "Facet by blank" and working backwards, combining a cell at a time.
+  - You might want to split a multivalue cell in multiple cells if you want to perform the same actions over all of them. This can be useful when you are creating text facets to learn more about your headings or look for inconsistencies in your data. Unfortunately, this data does not have great example data, but we will perform this action in the Web Scraping section of the workshop.
 
 ## Removing Duplicate Rows
+  - Finding and removing duplicate rows can be done in OpenRefine. There is a built in facet for finding duplicate values in a field that will help you to review and identify duplicate records.
+  - Once duplicates are identified, the data is typically sorted on the duplicates, then the Blank-down tool is used to remove all but the first instance. This is followed by faceting by blank on the column and removing all rows.
+  - The demonstration in the workshop is a ham-fisted approach to show the basic process. More care could be taken to avoid useful data loss, depending on your reasons for deleting rows.
 
 ## Working with Different Data Types
+  -
 
 ## Interacting with Rows
 
@@ -100,6 +105,11 @@ The data fields are
   - The actions in the Undo/Redo tab can also be saved to create workflows. If you are regularly performing the same actions on a data set, then it might be helpful to save the process and reuse it each time you open the data set.
 
 ## Fetching Data from a URL
+  - 
+  - basic geo code lookup using [Open Street Maps Nominatim API](https://nominatim.openstreetmap.org/) ([Nominatim Usage Policy](https://operations.osmfoundation.org/policies/nominatim/))
+  - create URLs that point at the Nominatim API -- add column based on "country" column: `"https://nominatim.openstreetmap.org/search?format=json&email=mbolam@gmail.com&app=google-refine&q=" + escape(value, 'url')`
+  - grab JSON from the API using "Add column by fetching URLs" on newly created column
+  - parse JSON using "Add column based on this column" `with(value.parseJson()[0], pair, pair.lat + ',' + pair.lon)`
 
 
 **Exporting a project or a data set**
@@ -120,7 +130,4 @@ The data fields are
     - sort by, permanent reorder
     - blank down / fill down
   - fetch URLs
-    - basic geo code lookup using [Open Street Maps Nominatim API](https://nominatim.openstreetmap.org/) ([Nominatim Usage Policy](https://operations.osmfoundation.org/policies/nominatim/))
-      - create URLs that point at the Nominatim API -- add column based on "country" column: `"https://nominatim.openstreetmap.org/search?format=json&email=mbolam@gmail.com&app=google-refine&q=" + escape(value, 'url')`
-      - grab JSON from the API using "Add column by fetching URLs" on newly created column
-      - parse JSON using "Add column based on this column" `with(value.parseJson()[0], pair, pair.lat + ',' + pair.lon)`
+    -
