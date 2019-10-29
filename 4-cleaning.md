@@ -91,12 +91,16 @@ The data fields are
   - The demonstration in the workshop is a ham-fisted approach to show the basic process. More care could be taken to avoid useful data loss, depending on your reasons for deleting rows.
 
 ## Working with Different Data Types
-  -
+  - When we were on the OpenRefine data preview page, we had the option to attempt to automatically identify data types. OpenRefine will attempt to convert the data to numbers or dates, as appropriate. Typically, I leave this unchecked. When you are working with the data, you can always use the Common Transforms to change the data type of a cell.
+  - The date format in OpenRefine follows the ISO8601 date format: e.g. 2015-04-11T09:28:00Z. The grel function toDate can convert from dates in string format to date format. A few examples can be found on the [GREL Date Functions](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Date-Functions) page of the OpenRefine Wiki.
 
 ## Interacting with Rows
-
+  - OpenRefine primarily deals with columns, but there are some operations that can interact with rows. Typically, this is done from the "All" menu at the front of your data sheet in OpenRefine.
+  - From the All menu, you can edit columns, allowing you to rearrange and remove data from your project. You can also star or flag rows, as we did in the exercise to remove duplicates above.
 
 ## Exporting a Project or Data Sets
+  - 
+
 
 ## Undo / Redo
  - OpenRefine has powerful undo and redo capabilities. The Undo/Redo link provides the entire project history, and allows you to step back/forward to any step in the process.
@@ -105,7 +109,7 @@ The data fields are
   - The actions in the Undo/Redo tab can also be saved to create workflows. If you are regularly performing the same actions on a data set, then it might be helpful to save the process and reuse it each time you open the data set.
 
 ## Fetching Data from a URL
-  - 
+  -
   - basic geo code lookup using [Open Street Maps Nominatim API](https://nominatim.openstreetmap.org/) ([Nominatim Usage Policy](https://operations.osmfoundation.org/policies/nominatim/))
   - create URLs that point at the Nominatim API -- add column based on "country" column: `"https://nominatim.openstreetmap.org/search?format=json&email=mbolam@gmail.com&app=google-refine&q=" + escape(value, 'url')`
   - grab JSON from the API using "Add column by fetching URLs" on newly created column
