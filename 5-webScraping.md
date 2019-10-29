@@ -5,7 +5,9 @@ nav: true
 ---
 
 # Getting Data by Scraping the Web
+- Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites. OpenRefine can be used to extract data from websites, then immediately cleaned and prepared for analysis. We'll be modeling one method of using OpenRefine to scrape Craigslist. A more detailed tutorial can be found on the the Programming Historian - [Fetch and Parse Data with OpenRefine](https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)
 
+## Tutorial
 - Create new project from Clipboard
   - paste in `https://pittsburgh.craigslist.org/search/sss`
   - this will only pull the data from the first page of results; you'd have to do some query manipulation to get more results back.
