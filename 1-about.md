@@ -9,7 +9,7 @@ nav: true
 OpenRefine is a [free](https://www.gnu.org/philosophy/free-sw.en.html), [open source](https://github.com/OpenRefine/OpenRefine), Java application, that runs offline in a web browser.
 
 **You can use OpenRefine to:**
- * Get and overview of a data set
+ * Get an overview of a data set
  * Split complex data fields into more granular parts
  * Clean up tabular data by removing inconsistencies in format and terminology
  * Enhance a data set with data from other sources
@@ -24,14 +24,16 @@ Additionally, OpenRefine works on a "copy" of your data. Your original data is n
 
 # Data Types
 
-Refine can handle all sorts of data!
-
-![table](images/table.png)
+Refine can handle all sorts of data, but works best with structured tabular data.
 
 - Import formats: TSV, CSV, custom separator txt, Excel, XML, JSON, Google Spreadsheets, RDF
 - Sources: local file, archive (zip), URL, clipboard, or Google
 
-Comfortable performance up to 100,000's of rows.
+It is important to understand some terminology when reffering to data in OpenRefine.
+
+![table](images/table.png)
+
+OpenRefine can be used with data sets with 100,000s of rows, but remember some actions may be slow in very large datasets. More memory can be allotted to OpenRefine if you anticipate that you will be working with large data sets. More information can be found on the [Allocate More Memory FAQ](https://github.com/OpenRefine/OpenRefine/wiki/FAQ:-Allocate-More-Memory FAQ).
 
 # Use Cases
 
