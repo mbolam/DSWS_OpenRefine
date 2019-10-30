@@ -17,7 +17,7 @@ Full documentation is available on the [official wiki](https://github.com/OpenRe
 
 # Start OpenRefine
 
-1. **Start the Java app:** Opening Refine differs depending on your OS, but in all cases the app will start running in a terminal window which you can ignore and minimize (but do not close!).
+1. **Start the Java app:** Opening Refine differs depending on your OS, but in most cases the app will start running in a terminal window which you can ignore and minimize (but do not close!).
     - Windows: double click `openrefine.exe` (You may get a warning that the publisher could not be verified, ignore it, and click *Run*. Once open, pin the Refine icon to your taskbar for easy access in the future).
     - Mac: click Refine icon.
     - Linux: in the OpenRefine directory open terminal and type `./refine`.
