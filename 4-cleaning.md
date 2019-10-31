@@ -109,10 +109,10 @@ The data fields are
       - Delete facets to make sure our subset worked. Facet by blank - false
       - Text facet - deal with extra text & millions/billions
       - Transform
-          - `value.replace("US $", "").replace("US$", "").replace("U.S.","").replace("USD","").replace("U.S. $","").replace("$","").replace(",","")`
+          - `value.replace("US $", "").replace("US$","").replace("U.S.","").replace("USD","").replace("U.S. $","").replace("$","").replace(",","")`
       - Common transform - clean leading/trailing space & collapse consecutive whitespace
       - Common transform - lower case
-      - Common - convert to numbers
+      - Common transform - convert to numbers
       - Numeric Facet, check nonnumeric
       - Transform
           - `toNumber(value.replace(" million", ""))*1000000`
