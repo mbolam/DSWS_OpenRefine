@@ -101,6 +101,24 @@ The data fields are
 ## Undo / Redo
  - OpenRefine has powerful undo and redo capabilities. The Undo/Redo link provides the entire project history, and allows you to step back/forward to any step in the process.
 
+## Bringing It All Together
+  - Maybe we want to start converting the endowment column to numeric values, so others can use them in statistical software or for other purposes.
+  - We're going to use a few different processes that we've already covered today. There are a bunch of ways that you could do this, and this is one of them.
+      - Filter by `U(.)?S(.)?` - check case sensitive and regex.
+      - Create new column based on this column
+      - Delete facets to make sure our subset worked. Facet by blank - false
+      - Text facet - deal with extra text & millions/billions
+      - Transform
+          - `value.replace("US $", "").replace("US$", "").replace("U.S.","").replace("USD","").replace("U.S. $","").replace("$","").replace(",","")`
+      - Common transform - clean leading/trailing space & collapse consecutive whitespace
+      - Common transform - lower case
+      - Common - convert to numbers
+      - Numeric Facet, check nonnumeric
+      - Transform
+          - `toNumber(value.replace(" million", ""))*1000000`
+          - `toNumber(value.replace(" billion", ""))*1000000000`
+      - See what is left over.
+
 ## Automating Workflows
  - The actions in the Undo/Redo tab can also be saved to create workflows. If you are regularly performing the same actions on a data set, then it might be helpful to save the process and reuse it each time you open the data set.
 
