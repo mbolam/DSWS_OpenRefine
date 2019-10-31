@@ -36,7 +36,7 @@ Before analysis comes the messy work of evaluating, cleaning, and transforming d
     * Interacting with Rows
     * Exporting a Project or Data Sets
     * Undo / Redo
-    * Bringing it All Together
+    * Bringing It All Together
     * Automating Workflows
     * Fetching Data from a URL
 * [Web Scraping](5-webScraping.html) (20 minutes)
