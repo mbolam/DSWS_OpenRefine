@@ -19,7 +19,7 @@ nav: true
 - Extract the Wikidata id
   - `Edit column` > `Add column based on this column...`
   - name column: wikidata_id
-  - cell.recon.match.id
+  - `cell.recon.match.id`
 
 ## Adding more data based on extracted dataset
 - OpenRefine 2.8 added querying and extracting tools
