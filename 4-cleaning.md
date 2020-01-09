@@ -118,7 +118,7 @@ The data fields are
       - Transform
           - `toNumber(value.replace(" million", ""))*1000000`
           - `toNumber(value.replace(" billion", ""))*1000000000`
-      - See what is left over.
+      - See what is left over, and make decisions about how to update the data, if necessary.
 
 ## Automating Workflows
  - The actions in the Undo/Redo tab can also be saved to create workflows. If you are regularly performing the same actions on a data set, then it might be helpful to save the process and reuse it each time you open the data set.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 5-Web Scraping
+title: 6-Web Scraping
 nav: true
 ---
 
