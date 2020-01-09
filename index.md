@@ -13,7 +13,7 @@ Before analysis comes the messy work of evaluating, cleaning, and transforming d
 After the workshop, please complete the [assessment survey](http://bit.ly/dss_fall2019). This helps us make sure our workshops are always getting better.
 
 ## Agenda:
-* [About](1-about.html) (7 minutes)
+* [About](1-about.html) (5 minutes)
     * What is OpenRefine?
     * Data Security
     * Data Types
@@ -24,7 +24,7 @@ After the workshop, please complete the [assessment survey](http://bit.ly/dss_fa
     * Setup OpenRefine
     * Start OpenRefine
     * Troubleshooting Installation
-* [Cleaning](4-cleaning.html) (60 minutes)
+* [Cleaning](4-cleaning.html) (90 minutes)
     * About the Data
     * Creating a Project
     * Navigating OpenRefine
@@ -43,19 +43,18 @@ After the workshop, please complete the [assessment survey](http://bit.ly/dss_fa
     * Bringing It All Together
     * Automating Workflows
     * Fetching Data from a URL
-* [Web Scraping](5-webScraping.html) (20 minutes)
-    * What is Web Scraping?
-    * Use Cases for OpenRefine for Web Scraping
-    * Demonstration of Web Scraping Craigslist
-* [Reconciliation](6-reconciliation.html) (20 minutes)
+* [Reconciliation](5-reconciliation.html) (10 minutes)
     * What is Reconciliation?
     * Using OpenRefine's Built-in WikiData Service
     * Extending Data from Reconciled Data
     * Other Data Services
-* [Resources](7-resources.html) (3 minutes)
+* [Web Scraping](6-webScraping.html) (3 minutes)
+    * What is Web Scraping?
+    * Use Cases for OpenRefine for Web Scraping
+* [Resources](7-resources.html) (2 minutes)
     * Overview of Other Resources
 
-Originally created: September 14, 2018. Updated: March 22, 2019, November 1, 2019. Developed for the the [ULS Digital Scholarship Workshop Series](https://www.library.pitt.edu/digital-scholarship-services) at the [University of Pittsburgh Libraries](http://www.library.pitt.edu).
+Originally created: September 14, 2018. Updated: March 22, 2019, November 1, 2019, January 17, 2020. Developed for the the [ULS Digital Scholarship Workshop Series](https://www.library.pitt.edu/digital-scholarship-services) at the [University of Pittsburgh Libraries](http://www.library.pitt.edu).
 
 > built using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/)
 >
