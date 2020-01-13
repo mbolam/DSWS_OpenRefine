@@ -8,23 +8,28 @@ nav: true
 
 ## About the Data
 
-In this demo we are going to play with a data set of museum metadata! Since we are trying to demonstrate a lot of features, some of the steps will be very “destructive” to the data (but our original data is still safe).
+In this demo we are going to play with a public data set of museum metadata published by the Powerhouse Museum in Sydney, Australia. Previous this sample dataset was available directly from their site, but they have since made the collection [accessible via API](https://api.maas.museum/docs). The sample data reflects a snapshot of the data at a specific time. Since we are trying to demonstrate a lot of features, some of the steps will be very “destructive” to the data (but our original data is still safe).
 
 Download <a href="data/phm-collection.tsv" target="\_blank">`phm-collection.tsv`</a>
 
-> The university endowment demo data is from the Enipedia OpenRefine Tutorial.
-
 The data fields are
-- university
-- endowment
-- numFaculty
-- numDoctoral
-- country
-- numStaff
-- established
-- numPostgrad
-- numUndergrad
-- numStudents
+- Record
+- ID
+- Object Title
+- Registration Number
+- Description.
+- Marks
+- Production Date
+- Provenance (Production)
+- Provenance (History)
+- Categories
+- Persistent Link
+- Height
+- Width
+- Depth
+- Diameter
+- Weight
+- License info
 
 ## Creating a project
   - Projects can be created from data on your computer, data on the web, pasting into the clipboard, connecting to a database, or linking to Google Sheets.
