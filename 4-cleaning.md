@@ -8,9 +8,9 @@ nav: true
 
 ## About the Data
 
-In this demo we are going to play with a data about University endowments harvested from Wikipedia—so it is very *messy*! Since we are trying to demonstrate a lot of features, some of the steps will be very “destructive” to the data (but our original data is still safe).
+In this demo we are going to play with a data set of museum metadata! Since we are trying to demonstrate a lot of features, some of the steps will be very “destructive” to the data (but our original data is still safe).
 
-Download <a href="images/universityData.csv" target="\_blank">`universityData.csv`</a>
+Download <a href="data/phm-collection.tsv" target="\_blank">`phm-collection.tsv`</a>
 
 > The university endowment demo data is from the Enipedia OpenRefine Tutorial.
 
