@@ -10,7 +10,7 @@ Before analysis comes the messy work of evaluating, cleaning, and transforming d
 
 ## Workshop Survey
 
-After the workshop, please complete the [assessment survey](http://bit.ly/dss_fall2019). This helps us make sure our workshops are always getting better.
+After the workshop, please complete the [assessment survey](http://bit.ly/dss_spring2020). This helps us make sure our workshops are always getting better.
 
 ## Agenda:
 * [About](1-about.html) (5 minutes)
