@@ -44,7 +44,6 @@ OpenRefine data preview page will attempt to identify the file-type, and the ava
   - Data manipulation happens through pull-down menus associated with each column.
   - OpenRefine only displays a few fields at a time - it is acting as a preview of the data, but the actions taken are on all cells in a column.
   - You can adjust the number of visible fields and navigate forward/backward through the pages of data.
-  - Data manipulation happens through pull-down menus associated with each column.
 
 {% include figure.html file="openRefineMenuSelect.jpg" alt="openrefine menu select" width="100%" %}
 
@@ -64,7 +63,7 @@ OpenRefine data preview page will attempt to identify the file-type, and the ava
 
 ## Transforming Data
   - OpenRefine includes some basic "Common Transforms", including trimming and collapsing whitespace, change the text case, and converting cells to different datatypes.
-  - Additionally, you can write your own tranforms using the General Refine Expression Language (GREL). GREL is incredibly powerful, and we are going to look at a few examples:
+  - Additionally, you can write your own transforms using the General Refine Expression Language (GREL). GREL is incredibly powerful, and we are going to look at a few examples:
       - Clean-up character encoding problems
           - `value.unescape("url")`
       - Add to a string
@@ -88,12 +87,11 @@ OpenRefine data preview page will attempt to identify the file-type, and the ava
 ## Splitting Columns
   - Sometimes columns will contain compound headings, for example keywords, subject terms, or names split by a comma or semi-colon. OpenRefine allows you to split that column into different cells or different columns.
   - You might split into different columns if you need to perform different actions on those data types. It can be a little challenging to merge data split into columns back into a single column, because the "+" operator in GREL will break on a blank node. You can do this by using "Facet by blank" and working backwards, combining a cell at a time.
-  - You might want to split a multivalue cell in multiple cells if you want to perform the same actions over all of them. This can be useful when you are creating text facets to learn more about your headings or look for inconsistencies in your data. Unfortunately, this data does not have great example data, but we will perform this action in the Web Scraping section of the workshop.
+  - You might want to split a multi-value cell in multiple cells if you want to perform the same actions over all of them. This can be useful when you are creating text facets to learn more about your headings or look for inconsistencies in your data. Unfortunately, this data does not have great example data, but we will perform this action in the Web Scraping section of the workshop.
 
 ## Removing Duplicate Rows
   - Finding and removing duplicate rows can be done in OpenRefine. There is a built in facet for finding duplicate values in a field that will help you to review and identify duplicate records.
   - Once duplicates are identified, the data is typically sorted on the duplicates, then the Blank-down tool is used to remove all but the first instance. This is followed by faceting by blank on the column and removing all rows.
-  - The demonstration in the workshop is a ham-fisted approach to show the basic process. More care could be taken to avoid useful data loss, depending on your reasons for deleting rows.
 
 ## Working with Different Data Types
   - When we were on the OpenRefine data preview page, we had the option to attempt to automatically identify data types. OpenRefine will attempt to convert the data to numbers or dates, as appropriate. Typically, I leave this unchecked. When you are working with the data, you can always use the Common Transforms to change the data type of a cell.
