@@ -8,7 +8,7 @@ nav: true
 
 ## About the Data
 
-In this demo we are going to attempt to clean a public data set of museum metadata published by the Powerhouse Museum in Sydney, Australia. Previous this sample dataset was available directly from their site, but they have since made the collection [accessible via API](https://api.maas.museum/docs). The sample data reflects a snapshot of the data at a specific time. Since we are trying to demonstrate a lot of features, some of the steps will be very “destructive” to the data (but our original data is still safe).
+In this demo we are going to attempt to clean a public data set of museum metadata published by the Powerhouse Museum in Sydney, Australia. Previously, this sample dataset was available directly from the Powerhouse Museum site, but they have since made the collection [accessible via API](https://api.maas.museum/docs). The sample data reflects a snapshot of the data at a specific time. Since we are trying to demonstrate a lot of features, some of the steps will be very “destructive” to the data (but our original data is still safe).
 
 Download <a href="data/phm-collection.tsv" target="\_blank">`phm-collection.tsv`</a>
 
@@ -32,11 +32,11 @@ The data fields are
 - License info
 
 ## Creating a project
-  - Projects can be created from data on your computer, data on the web, pasting into the clipboard, connecting to a database, or linking to Google Sheets.
-  - As a reminder. OpenRefine never over writes your original data, and information is *not* sent over the Internet!
-  - OpenRefine can accept a variety of data types, including CSV/TSV/\*SV, line-based text files, fixed-width field text files, JSON files, RDF files, XML files, and Excel files. I have found that simple \*SV files tend to work the best.
-  - OpenRefine data preview page will attempt to identify the file-type, and the available options will vary based on that file-type. For our University Data, OpenRefine correctly identified it as TSV, even though the file extension said ".csv"
-  - When satisfied with the data, click the "Create Project>>" button.
+Projects can be created from data on your computer, data on the web, pasting into the clipboard, connecting to a database, or linking to Google Sheets. As a reminder. OpenRefine never changes your original data, and information is *not* sent over the Internet!
+
+OpenRefine can accept a variety of data types, including CSV/TSV/\*SV, line-based text files, fixed-width field text files, JSON files, RDF files, XML files, and Excel files. I have found that simple \*SV files tend to work the best.
+
+OpenRefine data preview page will attempt to identify the file-type, and the available options will vary based on that file-type. For our museum data, OpenRefine correctly identified it as TSV.
 
 {% include figure.html file="openRefineDataPreview.jpg" alt="openrefine data preview" width="100%" %}
 
